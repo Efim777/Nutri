@@ -290,15 +290,11 @@ a {
   display: contents;
   gap: 8px;
 }
-
-.main__head-person > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.main__head-person-name{
+ display: grid;
 }
+
+
 
 .main__frends {
   background: #ffffff;
