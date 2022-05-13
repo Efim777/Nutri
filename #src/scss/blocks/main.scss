@@ -73,9 +73,8 @@
     &__head-person{
         display: contents;
         gap: 8px;
-        &>div{
-            display: flex;
-            justify-content: center;
+        &-name{
+            display: grid;
         }
     }
     &__frends{
@@ -104,7 +103,7 @@
 
     }
     &__iconjp{
-        background-image: url(./img/iconjpbig.png);
+        background-image: url(../img/iconjpbig.png);
         background-repeat: no-repeat;
         width: 56px;
         height: 56px;
