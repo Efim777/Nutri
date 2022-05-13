@@ -73,9 +73,8 @@
     &__head-person{
         display: contents;
         gap: 8px;
-        &>div{
-            display: flex;
-            justify-content: center;
+        &-name{
+            display: grid;
         }
     }
     &__frends{
