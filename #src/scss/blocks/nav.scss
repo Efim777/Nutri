@@ -1,55 +1,74 @@
-a{
-    text-decoration: none;
-    color: #A4A8A9;
 
-}
 .nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     max-width: 226px;
+    min-width: 226px;
     width: 100%;
     padding: 0 36px 122px 0 ;
+    a{
+        text-decoration: none;
+        color: #A4A8A9;
+    }
     &>div{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         height: 100%;
     }
     &__img{
         padding: 24px 0 0 24px;
     }
     &__account-title{
+        text-transform: uppercase; 
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #565656;
         margin-left: 25px;
         margin-top: 63px;
         margin-bottom: 26px;
     }
+    &__icon:first-child{
+        padding: 0 0 15px 32px;
+    }
     &__icon{
         padding: 15px 0 15px 32px;
         left: 32px;
-        display: flex;
         gap: 12px;
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #A4A8A9;
+        }
         &.active {
             background: #3A9160;
             border-radius: 0px 30px 30px 0px;
             p {
                 color: $white;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
             }
         }
     }
     &__selleraccount-title{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #565656;
         margin-left: 25px;
-        margin-top: 48px;
+        margin-top: 31px;
         margin-bottom: 26px;
     }
     &__logout{
         margin-left: 32px;
         color: #FF5C5C;
         &>a{
-            display: flex;
             color: #FF5C5C;
             gap: 12px;
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
         }
-        display: flex;
     }
 }
